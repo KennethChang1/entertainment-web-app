@@ -1,0 +1,148 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+.nav {
+  background-color: #161D2F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav__image {
+  width: 24px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+.nav__icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+
+.nav__icon {
+  width: 16px;
+}
+
+.nav__bookmark {
+  width: 14px;
+}
+
+.nav__logo {
+  width: 25px;
+}
+
+main {
+  background-color: #10141E;
+}
+
+.section {
+  padding: 20px;
+}
+
+.card__title {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: -0.3px;
+  margin-bottom: 16px;
+}
+
+.card__copy {
+  color: white;
+}
+
+.card__wrapper {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  overflow: auto;
+  gap: 16px;
+}
+
+.trending-movies {
+  position: relative;
+  color: white;
+}
+
+.trending-image {
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+  width: 270px;
+  height: 140px;
+  border-radius: 10px;
+}
+
+.movie-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+.movie-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  color: white;
+  opacity: 0.75;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.movie-name {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.movies {
+  margin-bottom: 1rem;
+}
+
+.movies-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.movies-body-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  opacity: 0.75;
+}
+
+.all-movies-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 5%;
+          column-gap: 5%;
+}
+/*# sourceMappingURL=style.css.map */
